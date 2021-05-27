@@ -1,0 +1,11 @@
+{
+  "viewportWidth": 1280,
+  "viewportHeight": 980,
+  "testFiles": "**/*.{feature,features}",
+  "baseUrl": "https://shop.samsung.com/br/",
+  "urlAccount": "https://shop.samsung.com/br/login?returnUrl=%2Fbr%2Faccount",
+  "videoCompression": false,
+  "chromeWebSecurity": false,
+  "defaultCommandTimeout": 10000,
+  "projectId": "8cucm7"
+}

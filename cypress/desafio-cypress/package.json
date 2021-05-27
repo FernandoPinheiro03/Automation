@@ -1,0 +1,34 @@
+{
+  "name": "cypress-cucumber",
+  "version": "1.0.0",
+  "description": "cypress with cucumber",
+  "main": "index.js",
+  "scripts": {
+    "test": "",
+    "cypress:open": "cypress open" 
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "keywords": [
+    "cypress",
+    "cucumber",
+    "testing"
+  ],
+  "author": "",
+  "bugs": {
+    "url": ""
+  },
+  "homepage": "",
+  "dependencies": {
+    "faker-br": "^0.3.0"
+  },
+  "cypress-cucumber-preprocessor": {
+    "step_definitions": "cypress/support/steps"
+  },
+  "devDependencies": {
+    "cypress": "^4.12.1",
+    "cypress-cucumber-preprocessor": "^2.5.5"
+  }
+}
